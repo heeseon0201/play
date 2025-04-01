@@ -37,6 +37,7 @@ dependencies {
 	}
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	runtimeOnly("com.h2database:h2")
+	runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
 	implementation("org.springframework.boot:spring-boot-starter-log4j2")
 }
 
